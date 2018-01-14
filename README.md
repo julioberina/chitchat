@@ -1,6 +1,6 @@
 # chitchat
 
-FIXME
+A YikYak clone built using Compojure/Ring and Selmer for templating. 
 
 ## Prerequisites
 
