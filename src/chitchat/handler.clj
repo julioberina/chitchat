@@ -5,8 +5,8 @@
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
 (defroutes app-routes
-  (GET "/" [] (render-file "index.html" {}))
-  (GET "/about" [] (render-file "about.html" {}))
+  (GET "/" [] (render-file "public/index.html" {}))
+  (GET "/about" [] (render-file "public/about.html" {}))
   (route/not-found "Not Found"))
 
 (def app
